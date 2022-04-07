@@ -1,0 +1,24 @@
+@attr lang en
+@ref base
+html
+
+@uref base
+head
+  @attr charset UTF-8
+  meta
+
+  title TypeMarkup
+
+  @attr http-equiv X-UA-Compatible
+  @attr content IE-edge
+  meta
+
+  @attr content width=device-width, initial-scale=1.0
+  @attr name viewport
+  meta
+
+@uref base
+body
+  h1 TypeMarkup
+
+  p Hello from :TypeMarkup
