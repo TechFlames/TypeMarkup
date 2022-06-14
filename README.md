@@ -5,27 +5,30 @@ TypeMarkup is a beautiful and simple language for web documents.
 ## **Preview**
 
 ```TypeMarkup
-@attr lang en
-*base html
+*html :: lang es
 
-&base head
-  @attr charset UTF-8
+&html head
+  meta :: charset UTF-8
+
+  :: http-equiv X-UA-Compatible
+  :: content IE-edge
   meta
 
-  title TypeMarkup
-
-  @attr http-equiv X-UA-Compatible
-  @attr content IE-edge
+  :: content width=device-width, initial-scale=1.0
+  :: name viewport
   meta
 
-  @attr content width=device-width, initial-scale=1.0
-  @attr name viewport
-  meta
+&html body
+  p >> what!?
 
-&base body
-  h1 TypeMarkup
+  :: src templates/header
+  Header
 
-  p Hello from :TypeMarkup
+  :: src templates/main
+  Main
+
+  :: src templates/footer
+  Footer
 ```
 
 ## Contributing
