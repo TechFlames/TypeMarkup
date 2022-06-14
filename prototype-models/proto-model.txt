@@ -1,18 +1,18 @@
-@attr lang en
++lang en
 *base html
 
 &base head
-  @attr charset UTF-8
+  +charset UTF-8
   meta
 
   title TypeMarkup
 
-  @attr http-equiv X-UA-Compatible
-  @attr content IE-edge
+  +http-equiv X-UA-Compatible
+  +content IE-edge
   meta
 
-  @attr content width=device-width, initial-scale=1.0
-  @attr name viewport
+  +content width=device-width, initial-scale=1.0
+  +name viewport
   meta
 
 &base body
